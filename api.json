@@ -1,0 +1,47 @@
+{
+  "lives": {
+    "content": [
+      {
+        "id": "1",
+        "liveName": "Inteligência Artificial",
+        "channelName": "NerdZão",
+        "liveDate": "2020-06-01T19:20:00",
+        "liveLink": "https://www.youtube.com/embed/WYDSJyQhRSw",
+        "flag": "previous"
+      },
+      {
+        "id": "2",
+        "liveName": "Inteligência Artificial",
+        "channelName": "NerdZão",
+        "liveDate": "2020-06-01T19:20:00",
+        "liveLink": "https://www.youtube.com/embed/WYDSJyQhRSw",
+        "flag": "previous"
+      },
+      {
+        "id": "3",
+        "liveName": "Inteligência Artificial",
+        "channelName": "NerdZão",
+        "liveDate": "2020-06-01T19:20:00",
+        "liveLink": "https://www.youtube.com/embed/WYDSJyQhRSw",
+        "flag": "previous"
+      },
+      {
+        "id": "4",
+        "liveName": "Inteligência Artificial",
+        "channelName": "NerdZão",
+        "liveDate": "2020-06-01T19:20:00",
+        "liveLink": "https://www.youtube.com/embed/WYDSJyQhRSw",
+        "flag": "previous"
+      }
+    ],
+    "first": true,
+    "last": false,
+    "number": 1,
+    "numberOfElements": 1,
+    "pageable": [],
+    "size": 1,
+    "sort": 1,
+    "totalElements": 1,
+    "totalPages": 1
+  }
+}
