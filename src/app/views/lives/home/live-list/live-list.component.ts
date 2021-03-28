@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Lives} from '../../../shared/model/live.model';
-import {LiveService} from '../../../shared/service/live.service';
 import {DomSanitizer} from '@angular/platform-browser';
+import {Lives} from '../../../../shared/model/live.model';
+import {LiveService} from '../../../../shared/service/live.service';
 
 @Component({
   selector: 'app-live-list',
@@ -35,7 +35,7 @@ export class LiveListComponent implements OnInit {
   public getLives(): void {
     this.liveService.getLivesWithFlag('previous')
       .subscribe(
-        data => {
+        (data: any) => {
           this.livesPrevious = this.dataParseSanitizer(data.content);
           this.previous = true;
         }
@@ -43,7 +43,7 @@ export class LiveListComponent implements OnInit {
 
     this.liveService.getLivesWithFlag('next')
       .subscribe(
-        data => {
+        (data: any) => {
           this.livesNext = this.dataParseSanitizer(data.content);
           this.next = true;
         }
